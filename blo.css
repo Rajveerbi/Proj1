@@ -1,0 +1,187 @@
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    background-image: url('imag/img1.jpeg') ;
+    background-size: cover;
+
+    
+}
+
+.home
+    {
+        display: block;
+        width: 49%;
+        margin: -185px auto;
+        /* border: 2px solid green; */
+    }
+
+    .sign {
+       
+    border: 0px solid white;
+    margin: 246px -25px;
+    padding: 44px;
+    width: 33%;
+    border-radius: 41px;
+    }
+
+    .form-group input {
+        
+        text-align: center;
+        display: block;
+        width: 294px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px 0px;
+      
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    .Sign h1 {
+        text-align: center;
+    }
+
+    .sign button {
+        display: inline-block;
+        width: 20%;
+        margin: 10px auto 0;
+    }
+
+
+
+
+.raj{
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+
+    
+}
+.raj2{
+    height: 132px;
+    width: 10%;
+    margin-left: -25px; 
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+    color: rgb(7, 3, 3);
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+
+
+
+.btn {
+    width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+
+.hero_image {
+	
+	background-size: cover;
+	height: 100vh;
+	position:relative;
+}
+
+.hero_wrapper {
+	color:rgb(17, 11, 11);
+	position: absolute;
+	top: 27%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.hero_wrapper h1 {
+	font-size: 2.4rem;
+	text-align: center;
+}
+
+
+.hero_wrapper span {
+	margin-left: 5rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form_code {
+	text-align: center;
+}
+
+.form_code .post_code {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .6rem;
+	border:none;
+	outline:none;
+}
+
+.form_code button {
+	width: 40%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin:1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+.feedback{
+    color:rgb(10, 4, 4);
+	position: absolute;
+	top: 170%;
+	left: 83%;
+	transform: translate(-50%,-50%);
+
+}
+
+.feed {
+    display: block;
+    width: 89%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    padding: 3.6rem;
+    border: none;
+    outline: none;
+    height: 43px;
+}
+
+.feedback h2 {
+	font-size: 1.4rem;
+	text-align: center;
+    color:black;
+}
+
+
+
